@@ -13,5 +13,5 @@ jobs:
       - name: Build and push image
         run: |
           docker login --username NazgoooAtanasov --password ${{ secrets.GHCR_SEC }} ghcr.io
-          docker build . --tag ghcr.io/NazgoooAtanasov/commercyfy-notifier:latest
-          docker push ghcr.io/NazgoooAtanasov/commercyfy-notifier:latest
+          docker build . --tag ghcr.io/nazgoooatanasov/commercyfy-notifier:latest
+          docker push ghcr.io/nazgoooatanasov/commercyfy-notifier:latest
